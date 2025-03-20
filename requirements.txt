@@ -1,5 +1,0 @@
-fastapi==0.95.2
-uvicorn==0.22.0
-pymongo==4.5.0
-python-dotenv==1.0.0
-python-multipart
