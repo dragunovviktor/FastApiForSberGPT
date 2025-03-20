@@ -45,6 +45,8 @@ class MaintenancePlanInDB(MaintenancePlan):
 class WorkLog(BaseModel):
     description: str
     date: str  # Строка вместо datetime
+    vsp_id: int  # ID ВСП, к которому привязана работа
+
 
 class WorkLogInDB(WorkLog):
     id: int  # Числовой ID
